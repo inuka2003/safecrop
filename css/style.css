@@ -281,6 +281,13 @@ a:focus {
   margin-bottom: 20px;
 }
 
+/* Mobile-specific styles (max-width: 768px) */
+@media (max-width: 768px) {
+  .video_section {
+    height: 120vh; /* Set the height to 50% of the viewport height for mobile */
+  }
+}
+
 .btn-primary {
   background-color: #007bff;
   padding: 10px 20px;
@@ -311,7 +318,7 @@ a:focus {
           align-items: center;
   text-align: center;
   margin-top: 45px;
-  background-color: #f8f8f9;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 5px;
 }
@@ -694,4 +701,3 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
-/*# sourceMappingURL=style.css.map */

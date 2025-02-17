@@ -34,17 +34,31 @@
 }
 
 @media (max-width: 768px) {
+  
   .about_section .img-box {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
     margin-bottom: 45px;
   }
 
+  .about_section .img-box img {
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .about_section .detail-box {
+    text-align: center; /* Center the content, including the link */
+  }
+
+  .about_section .detail-box a {
+    margin: 20px auto; /* Center the link horizontally and add margin */
+  }
 }
 
 @media (max-width: 576px) {
   .header_section .header_top .contact_nav a span {
     display: none;
   }
-
 
   .client_section .client_container {
     width: 100%;
