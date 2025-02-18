@@ -284,7 +284,7 @@ a:focus {
 /* Mobile-specific styles (max-width: 768px) */
 @media (max-width: 768px) {
   .video_section {
-    height: 120vh; /* Set the height to 50% of the viewport height for mobile */
+    height: 100vh; /* Set the height to 50% of the viewport height for mobile */
   }
 }
 
