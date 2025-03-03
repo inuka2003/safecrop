@@ -127,7 +127,7 @@ a:focus {
 
 .sub_page .hero_area {
   min-height: auto;
-  background-color: #0D4715;
+  background: linear-gradient(130deg, #145221, #0a3212);
 }
 
 .sub_page .hero_area .hero_bg_box {
@@ -324,19 +324,22 @@ a:focus {
 }
 
 .service_section .box .img-box {
+  margin-bottom: 20px;
+  width: 120px;
+  height: 120px;
+  min-width: 120px;
+  min-height: 120px;
+  border-radius: 100%;
+  border: 5px solid #0D4715;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  width: 125px;
-  min-width: 75px;
-  height: 75px;
-  margin-bottom: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .service_section .box .img-box img {
@@ -545,7 +548,85 @@ a:focus {
 }
 /* App Features Section End */
 
+/*team section */
+.team_section {
+  text-align: center;
+  background-color: #0D4715;
+  color: #ffffff;
+}
 
+.team_section .heading_container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.team_section .team_container {
+  padding: 0 15px;
+}
+
+.team_section .team_container .box {
+  padding: 35px 0 0 0;
+  border-radius: 0px;
+  overflow: hidden;
+  -webkit-transition: all .1s;
+  transition: all .1s;
+  margin-top: 45px;
+  background: linear-gradient(to bottom, #0F5520, #0C3E17);
+
+}
+
+.team_section .team_container .box .img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.team_section .team_container .box .img-box img {
+  width: 200px; /* Increase the width */
+  height: 200px; /* Increase the height to match the width for a perfect square */
+  object-fit: cover; /* Ensure the image fills the square container while maintaining aspect ratio */
+  border-radius: 0%; /* Remove border-radius for square shape */
+  border: 0px solid #ffffff; /* Optional: if you want no border around the image */
+}
+
+
+
+.team_section .team_container .box .detail-box {
+  margin: 25px 0;
+}
+
+.team_section .team_container .box .detail-box h5 {
+  color: #00bbf0;
+  font-weight: 600;
+  position: relative;
+}
+
+.team_section .team_container .box .social_box {
+  padding: 10px 45px 20px 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.team_section .team_container .box .social_box a {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.team_section .team_container .box .social_box a:hover {
+  color: #00bbf0;
+}
+
+/*team section end*/
 
 /* client section end */
 .info_section {
