@@ -566,12 +566,12 @@ a:focus {
 }
 
 .team_section .team_container .box {
-  padding: 35px 0 0 0;
+  padding: 25px 0 0 0;
   border-radius: 0px;
   overflow: hidden;
   -webkit-transition: all .1s;
   transition: all .1s;
-  margin-top: 45px;
+  margin-top: 10px;
   background: linear-gradient(to bottom, #0F5520, #0C3E17);
 
 }
@@ -588,17 +588,17 @@ a:focus {
           align-items: center;
 }
 .team_section .team_container .box .img-box img {
-  width: 200px; /* Increase the width */
-  height: 200px; /* Increase the height to match the width for a perfect square */
-  object-fit: cover; /* Ensure the image fills the square container while maintaining aspect ratio */
-  border-radius: 0%; /* Remove border-radius for square shape */
-  border: 0px solid #ffffff; /* Optional: if you want no border around the image */
+  width: 300px; 
+  height: 350px; 
+  object-fit: cover; 
+  border-radius: 0%; 
+  border: 0px solid #ffffff; 
 }
 
 
 
 .team_section .team_container .box .detail-box {
-  margin: 25px 0;
+  margin: 15px 0;
 }
 
 .team_section .team_container .box .detail-box h5 {
